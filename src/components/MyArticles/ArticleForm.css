@@ -1,0 +1,23 @@
+.custom-select {
+    width: 100%; /* Full width */
+    padding: 10px 15px; /* Padding for better readability */
+    font-size: 16px; /* Font size */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #fff; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    -webkit-appearance: none; /* Remove default arrow */
+    -moz-appearance: none; /* Remove default arrow */
+    appearance: none; /* Remove default arrow */
+  }
+  
+  .custom-select:focus {
+    border-color: #1daafb; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(29, 170, 251, 0.75); /* Focus shadow */
+    outline: none; /* Remove default outline */
+  }
+  
+  .custom-select option {
+    padding: 10px; /* Padding inside the options */
+  }
+  

@@ -1,0 +1,206 @@
+body {
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  padding: 0;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.button i {
+  font-size: 20px; /* Adjust icon size */
+  margin-right: 5px;
+}
+
+.list {
+  width: 130px;
+  padding: 15px 30px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px #b0b0b0, -5px -5px 10px #ffffff;
+  color: #544d4d;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.list:hover {
+  background-color: #00bcd4;
+}
+
+.button-save {
+  background-color: #00bcd4; /* Matches the teal color in the image */
+  color: white;
+  padding: 10px 30px; /* Adjusted padding for size */
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.button-cancel {
+  background-color: #d32f2f; /* Matches the red color in the image */
+  color: white;
+  padding: 10px 30px; /* Adjusted padding for size */
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button-save:hover {
+  background-color: #008c9e; /* Darker shade of teal for hover */
+}
+
+.button-cancel:hover {
+  background-color: #b71c1c; /* Darker shade of red for hover */
+}
+
+.add-item-form {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+table th {
+  background-color: #00bcd4;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 5px;
+  margin: 20px 0;
+  border: 3px solid #ddd;
+}
+
+td {
+  color: black;
+}
+
+table td:hover {
+  background-color: #f5f5f5;
+}
+
+.pagination-footer {
+  text-align: center;
+}
+
+.pagination-content {
+  display: inline-block;
+}
+
+.pagination-button {
+  background-color: #01a4b6;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.pagination-button i {
+  font-size: 16px;
+}
+
+/* Small Edit Table */
+.edit-table {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-table h3 {
+  margin-bottom: 15px;
+}
+
+.small-table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.small-table td {
+  padding: 10px;
+  border: none;
+  text-align: left;
+}
+
+th {
+  background-color: #00bcd4;
+}
+
+.small-table input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.small-table input[type="text"],
+.small-table input[type="number"],
+.small-table input[type="email"] {
+  font-size: 14px;
+}
+
+.add-button {
+  background-color: #01a4b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 25px;
+  height: 60px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background-color 0.2s ease 0.2s;
+}
+
+.add-button:hover {
+  background-color: #03535c;
+}
+
+.cancel-button {
+  background-color: #cc0d0d;
+}
+
+.cancel-button:hover {
+  background-color: #800303;
+}

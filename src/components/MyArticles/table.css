@@ -1,0 +1,301 @@
+/* Body Styles */
+body {
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* Container Styles */
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  padding: 0;
+}
+
+/* Button Styles */
+.button, .list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px 15px;
+}
+
+.button i, .pagination-button i {
+  font-size: 16px;
+}
+
+/* Specific Button Styles */
+.button-edit, .button-delete, .button-save, .button-cancel,
+.button-stock-available, .button-stock-out, .button-add {
+  color: white;
+  width: 50px;
+  height: 35px;
+}
+
+.button-edit {
+  background-color: blue;
+}
+
+.button-delete {
+  background-color: rgba(216, 8, 8, 0.878);
+}
+
+.button-save {
+  background-color: rgb(2, 2, 111);
+}
+
+.button-cancel {
+  background-color: grey;
+}
+
+.button-stock-available {
+  background-color: green;
+}
+
+.button-stock-out {
+  background-color: rgb(223, 6, 6);
+}
+
+.button-add {
+  background-color: #00bcd4;
+  padding: 5px 10px;
+}
+
+.list {
+  width: 130px;
+  padding: 15px 30px;
+  font-size: 15px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px #b0b0b0, -5px -5px 10px #ffffff;
+  color: #544d4d;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.list:hover, .button:hover {
+  opacity: 0.8;
+}
+
+/* Button Hover States */
+.button-edit:hover {
+  background-color: darkblue;
+}
+
+.button-delete:hover {
+  background-color: darkred;
+}
+
+.button-save:hover {
+  background-color: darkblue;
+}
+
+.button-cancel:hover {
+  background-color: darkgrey;
+}
+
+.button-stock-available:hover,
+.button-stock-out:hover {
+  opacity: 1; /* Keeps the color on hover */
+}
+
+/* Form Styles */
+.add-item-form {
+  margin-top: 20px;
+}
+
+.form-container {
+  background-color: white;
+  margin: 0 300px;
+  padding: 20px 60px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px rgb(197, 196, 196);
+}
+
+/* Input Styles */
+.my-input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.3rem;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.my-input:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  outline: 0;
+}
+
+.my-input::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.my-input:disabled, .form-control[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+/* Error Message Styles */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.is-invalid {
+  border-color: red;
+}
+
+/* Button Group Styles */
+.my-buttons {
+  margin-left: 370px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+table th {
+  background-color: #00bcd4;
+}
+
+table td:hover {
+  background-color: #f5f5f5;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 5px;
+  margin: 20px 0;
+  border: 3px solid #ddd;
+}
+
+td {
+  color: black;
+}
+
+/* Pagination Styles */
+.pagination-footer {
+  text-align: center;
+}
+
+.pagination-content {
+  display: inline-block;
+}
+
+.pagination-button {
+  background-color: rgba(1, 164, 182, 0.878);
+  color: rgb(254, 254, 254);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.pagination_rounded ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination_rounded ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+.pagination_rounded ul li button {
+  float: left;
+  color: #4285f4;
+  border-radius: 50%;
+  line-height: 28px;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.pagination_rounded .prev,
+.pagination_rounded .next {
+  border-radius: 20px;
+  width: 70px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #e0e0e0;
+  color: #4285f4;
+}
+
+.pagination_rounded ul li button.active {
+  background-color: #4285f4;
+  color: #fff;
+  border: 1px solid #4285f4;
+}
+
+.pagination_rounded ul li button.active:hover {
+  background-color: #357ae8;
+  border: 1px solid #357ae8;
+}
+
+.pagination_rounded ul li button:hover {
+  background: #4285f4;
+  color: #fff;
+  border: 1px solid #4285f4;
+}
+
+/* Edit Table Styles */
+.edit-table {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-table h3 {
+  margin-bottom: 15px;
+}
+
+.small-table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.small-table td {
+  padding: 10px;
+  border: none;
+  text-align: left;
+}
+
+.small-table input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.visible-xs {
+  display: none !important;
+}

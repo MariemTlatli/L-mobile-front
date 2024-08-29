@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  background-color: #ece4f0;
+}
+
+.main-content {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.dashboard {
+  margin-bottom: 30px;
+}
